@@ -23,6 +23,7 @@ export default function App() {
               component={HomeScreen}
               options={{
                 headerShown: false,
+                gestureEnabled: true,
               }}
             />
             <Stack.Screen
@@ -30,6 +31,7 @@ export default function App() {
               component={MapScreen}
               options={{
                 headerShown: false,
+                gestureEnabled: true,
               }}
             />
           </Stack.Navigator>
